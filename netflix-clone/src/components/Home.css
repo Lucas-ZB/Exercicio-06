@@ -1,0 +1,74 @@
+/* Home.css */
+.home {
+  padding: 60px 20px; /* Adiciona um padding para a área visível da página */
+  background-color: var(--primary-bg);
+  color: var(--text-color);
+}
+
+.movie-section {
+  margin-bottom: 40px;
+}
+
+.movie-section h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.movie-section .movie-cards {
+  display: flex;
+  overflow-x: scroll;
+  padding: 10px 0;
+}
+
+.movie-card {
+  flex: 0 0 auto;
+  width: 150px;
+  margin-right: 10px;
+  border-radius: var(--card-border-radius);
+  box-shadow: var(--card-shadow);
+}
+
+.movie-card img {
+  width: 100%;
+  border-radius: var(--card-border-radius);
+}
+
+/* Home.css */
+
+/* Estilos para telas pequenas (celulares) */
+@media (max-width: 600px) {
+  .movie-card {
+    width: 120px;
+  }
+
+  .movie-section h2 {
+    font-size: 20px;
+  }
+
+  .movie-section .movie-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* Estilos para telas médias (tablets) */
+@media (min-width: 601px) and (max-width: 1024px) {
+  .movie-card {
+    width: 180px;
+  }
+
+  .movie-section h2 {
+    font-size: 22px;
+  }
+}
+
+/* Estilos para telas grandes (desktops) */
+@media (min-width: 1025px) {
+  .movie-card {
+    width: 220px;
+  }
+
+  .movie-section h2 {
+    font-size: 24px;
+  }
+}

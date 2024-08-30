@@ -1,0 +1,26 @@
+/* MovieCard.css */
+.movie-card {
+    background-color: #222;
+    border-radius: var(--card-border-radius);
+    box-shadow: var(--card-shadow);
+    overflow: hidden;
+    margin: 10px;
+    position: relative;
+  }
+  
+  .movie-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .movie-card .movie-info {
+    padding: 10px;
+    color: var(--text-color);
+  }
+  
+  .movie-card .movie-title {
+    font-size: 18px;
+    margin: 0;
+  }
+  

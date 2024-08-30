@@ -1,0 +1,29 @@
+/* MovieSection.css */
+.movie-section {
+    margin-bottom: 40px;
+  }
+  
+  .movie-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .movie-section .movie-cards {
+    display: flex;
+    overflow-x: scroll;
+    padding: 10px 0;
+  }
+  
+  .movie-card {
+    flex: 0 0 auto;
+    width: 150px;
+    margin-right: 10px;
+    border-radius: var(--card-border-radius);
+    box-shadow: var(--card-shadow);
+  }
+  
+  .movie-card img {
+    width: 100%;
+    border-radius: var(--card-border-radius);
+  }
+  

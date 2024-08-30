@@ -1,0 +1,51 @@
+:root {
+    --primary-bg: #141414; /* Fundo preto como o da Netflix */
+    --primary-color: #e50914; /* Vermelho Netflix */
+    --text-color: #ffffff; /* Texto branco */
+    --card-border-radius: 8px;
+    --card-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: var(--text-color);
+    background-color: var(--primary-bg);
+  }
+  
+  a {
+    color: var(--text-color);
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+
+  /* styles.css */
+@media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .navbar input {
+      width: 100%;
+      margin-top: 10px;
+    }
+  
+    .movie-card {
+      flex: 1 0 48%; /* Ajusta o número de colunas */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .navbar {
+      padding: 10px;
+    }
+  
+    .movie-card {
+      flex: 1 0 100%; /* Apenas uma coluna em telas muito pequenas */
+    }
+  }
+  

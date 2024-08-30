@@ -1,0 +1,18 @@
+/* src/pages/MovieDetail.css */
+
+.movie-detail {
+    padding: 20px;
+    color: #fff;
+    background-color: #141414; /* Cor de fundo similar à da Netflix */
+  }
+  
+  .movie-detail h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .movie-detail p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
